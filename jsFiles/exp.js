@@ -13,7 +13,7 @@ const exp = (function() {
 
 
     let settings = {
-        dv: ['happiness', 'flow'][Math.floor(Math.random() * 2)],
+        dv: 'flow',
     };
 
     if (settings.dv == 'happiness') {
